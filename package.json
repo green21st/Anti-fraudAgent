@@ -1,0 +1,9 @@
+{
+  "name": "anti-fraud-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "智盾反诈 - 反诈Agent智能训练与法律自救App",
+  "scripts": {
+    "deploy:pages": "powershell -ExecutionPolicy Bypass -File scripts/deploy-pages.ps1"
+  }
+}

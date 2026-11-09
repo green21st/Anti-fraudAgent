@@ -18,6 +18,11 @@
         "enable" : false
     },
     "h5" : {
-        "title" : "智盾反诈"
+        "title" : "智盾反诈",
+        /* GitHub Pages 子路径部署，仓库名 Anti-fraudAgent */
+        "router" : {
+            "mode" : "hash",
+            "base" : "/Anti-fraudAgent/"
+        }
     }
 }
